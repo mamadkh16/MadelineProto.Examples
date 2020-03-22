@@ -68,7 +68,7 @@ use danog\MadelineProto\RPCErrorException;
 $settings['logger']['max_size'] = 1 * 1024 * 1024;
 $settings['serialization']['cleanup_before_serialization'] = true;
 $MadelineProto = new API('realSamy.madeline', $settings);
-$dev = 847046123; //Admin ID
+$dev = 977446546; //Admin ID
 $data = json_decode(file_get_contents('./data/data.json'), true);
 ##------------------Variables-----------------##
 
@@ -79,7 +79,7 @@ class realSamy extends EventHandler
     /**
      * @var int|string Username or ID of bot admin
      */
-    const ADMIN = "AdminUsername"; // Change this
+    const ADMIN = "mokhe_yakhzade"; // Change this
 
     /**
      * Get peer(s) where to report errors
